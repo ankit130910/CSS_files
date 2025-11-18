@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.parent {
+    height: 500px;
+    display: grid;
+    background-color: aqua;
+    align-items: center;
+    justify-content: center;
+    /* OR */
+    /* place-items: center center; */
+}
+
+.child {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+
+.project{
+    display: grid;
+    grid-template-columns: 450px 450px 450px;
+    grid-template-rows: 300px 300px;
+    gap: 10px;
+}
+
+.project_image1{
+    background: url(https://img.freepik.com/free-photo/woman-beach-with-her-baby-enjoying-sunset_52683-144131.jpg?size=626&ext=jpg);
+    background-size: contain;
+}
+.project_image2{
+    background: url(https://static.vecteezy.com/vite/assets/photo-masthead-375-BoK_p8LG.webp);
+    background-size: 100% 100%;
+}

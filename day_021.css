@@ -1,0 +1,53 @@
+/* Parralax Structure */
+.box1{
+    height: 400px;
+    background-color: chartreuse;
+}
+.box2{
+    height: 400px;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-image: url(https://cdn.pixabay.com/photo/2024/05/26/10/15/bird-8788491_1280.jpg);
+    background-size: 100% 100%;
+}
+.box{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(187, 100, 100);
+
+    /* Long hand property */
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+
+    /* Short hand property */
+    padding: 20px;
+
+    /*       T/B   L/R  */
+    padding: 20px 60px;
+
+    /*       Top   Ri   BT   Lt   */
+    padding: 20px 30px 40px 50px;
+
+    /* Long hand Property */
+    border-width: 4px;
+    border-style: dashed;
+    border-color: blue;
+
+    /* Short hand Property */
+    border: 10px inset blueviolet;
+
+    /* Border radius */
+    border-radius: 50%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 20px;
+
+    /* margin */
+    margin-left: 50px;
+    margin-right: 150px;
+
+    box-sizing: border-box;
+}

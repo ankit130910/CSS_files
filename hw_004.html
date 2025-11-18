@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .layout{
+            display: grid;
+            grid-template-columns: 20% 60% 20%;
+            grid-template-rows: 20% 60% 20%;
+            grid-template-areas: "header header header"
+            "leftS main rightS"
+            "footer footer footer";
+            height: 640px;
+            color: #fff;
+            font-weight: 900;
+            font-size: 24px;
+        }
+        .header{
+            grid-area: header;
+            background-color: rgb(145, 211, 148);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .leftS{
+            grid-area: leftS;
+            background-color: rgb(169, 192, 178);
+             display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .main{
+            grid-area: main;
+            background-color: rgb(170, 194, 147);
+             display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .rightS{
+            grid-area: rightS;
+            background-color: rgb(155, 212, 171);
+             display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .footer{
+            grid-area: footer;
+            background-color: rgb(130, 177, 148);
+             display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="layout">
+        <div class="header">Header</div>
+        <div class="leftS">Left Sidebar</div>
+        <div class="main">Main</div>
+        <div class="rightS">Right Sidebar</div>
+        <div class="footer">Footer</div>
+    </div>
+
+</body>
+
+</html>

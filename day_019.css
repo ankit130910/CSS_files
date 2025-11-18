@@ -1,0 +1,27 @@
+.text {
+   line-height: 5;
+   text-shadow: 5px 5px 10px gold;
+
+}
+
+a {
+   text-decoration: none;
+}
+
+/* Dimensions (height and width)
+   there are two types of units -- 
+   Absolute (Fixed) -- pixel
+   Relative (changes with the size of browser -- % , rem , em
+*/
+.parent {
+   width: 700px;
+   height: 400px;
+   font-size: 20px;
+   background-color: blanchedalmond;
+}
+
+.child {
+   width: 50%;
+   height: 50%;
+   background-color: blueviolet;
+}

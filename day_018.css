@@ -1,0 +1,48 @@
+/* !-> Simple Selectors */
+/* Element Selector */
+ul{
+    list-style: circle;
+}
+/* Id Selector */
+#list1{
+    background-color: aqua;
+}
+/* Class Selector */
+.list{
+    background-color: rosybrown;
+}
+/* Group Selector */
+/* h1,h2,h3,h4,h5,h6{
+    background-color: violet;
+    color:purple;
+} */
+
+/* 2-> Combinators */
+
+/* Descendant Selector */
+div > p{
+    background-color: bisque;
+}
+/* Next Sibling Selector */
+h1 + h2{
+    background-color: chartreuse;
+}
+input:checked + h4{
+    background-color: blueviolet;
+}
+
+/* Color Format */
+.para{
+    color: rgb(255, 0, 0);
+}
+.para2{
+    color: rgba(255, 0, 0, 1);
+    background-color: hsl(10, 50, 8);
+}
+
+/* Text Properties */
+.para{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: line-through; /* underline, overline*/
+}
