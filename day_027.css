@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* @media (min-width: 789px) and (max-width: 1200px){
+    body{
+        background-color: blueviolet;
+    }
+    h1{
+        color: #fff;
+        font-size: 140px;
+    }   
+}
+
+@media (min-width: 482px) and (max-width: 786px){
+    body{
+        background-color: rgb(43, 226, 83);
+    }
+    h1{
+        color: #fff;
+        font-size: 100px;
+    }   
+} */
+
+/* .img{
+    background-image: url("https://preview.colorlib.com/theme/flyplane/img/blog/latest-1.jpg");
+    background-size: contain;
+    height: 300px;
+    width: 30%;
+}
+
+@media(max-width: 700px){
+   .img{
+     background-image: url("https://preview.colorlib.com/theme/flyplane/img/latest/lr-2.jpg");
+    height: 100vh;
+    background-size: contain;
+   }
+} */
+
+.navbar{
+    display: flex;
+    height: 100px;
+    background-color: lightblue;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0  150px;
+    
+}
+*{
+     font-family: "Poppins", sans-serif;
+}
+.logo{
+    font-size: 40px;
+    color: aliceblue;
+}
+
+.links{
+    display: flex;
+    gap: 40px;
+}
+
+.links a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+@media (max-width: 700px){
+    .navbar{
+        /* display: flex; */
+        flex-direction: column;
+        height: 70vh;
+        background-color: black;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 0px;
+    }
+    .links{
+        display: flex;
+        flex-direction: column;
+    }
+}
